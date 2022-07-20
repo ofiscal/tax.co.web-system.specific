@@ -1,5 +1,11 @@
-targets = [ "show_config",
-            "show_params",
-            # "tests",
-            "reports",
-           ]
+targets = [
+  "show_config",
+  "show_params",
+  # "tests",
+    # On this branch (aws-ubuntu),
+    # it would not make sense to run the tests.
+    # They are only useful to the developer, not the user.
+    # Moreover many of them should fail under user-supplied conditions
+    # different from the baseline.
+  "reports",
+]
