@@ -1,8 +1,8 @@
 These are files that differ from one system to another.
-This repo is designed to be used with,
-and as a subfolder called `system-specific/` of,
-the repo `git@github.com:ofiscal/tax.co.web.git`.
+This repo is designed to be used as a submodule
+of the repo `git@github.com:ofiscal/tax.co.web.git`.
 
-The `master` branch of this repo is useless.
-Checkout instead the repo corresponding to
-the system you're using.
+The `master` branch of this repo can be customized --
+indeed, it is useless until you do --
+by editing the `base_system` portion of the file `paths.json`
+to correspond to the system on which it is being run.

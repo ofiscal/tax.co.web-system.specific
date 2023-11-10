@@ -1,0 +1,14 @@
+{ "paths" : {
+    "base_system"  : {
+      "tax_co"     : "/CUSTOMIZE/THIS/PATH/TO/tax.co",
+      "tax_co_web" : "/CUSTOMIZE/THIS/PATH/TO/tax.co.web"
+    },
+    "docker" : {
+      "apache"          : "/mnt/apache2",
+      "commands"        : "/mnt/commands",
+      "django"          : "/mnt/django",
+      "paths"           : "/mnt/paths",
+      "system_specific" : "/mnt/system_specific",
+      "tax_co"          : "/mnt/tax_co"
+    }
+} }
